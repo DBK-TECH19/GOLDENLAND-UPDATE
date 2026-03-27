@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldenLand Construction | Building Ghana's Future</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="float-panel">
+    <a href="#" class="float-item whatsapp" data-track-click="whatsapp" data-dynamic-link="whatsapp" target="_blank" rel="noreferrer">
+      <i class="fab fa-whatsapp"></i>
+      <span>Chat</span>
+    </a>
+    <a href="#" class="float-item email" data-track-click="email" data-dynamic-link="email">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+    <a href="#" class="float-item phone" data-track-click="phone" data-dynamic-link="phone">
+      <i class="fas fa-phone-alt"></i>
+      <span>Call</span>
+    </a>
+    <a href="#contact" class="float-item map" data-track-click="map">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>GPS</span>
+    </a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#home" class="logo">
+        <div class="logo-mark">
+          <img id="siteLogo" src="/assets/image/ChatGPT Image Mar 2, 2026, 11_19_12 PM.png" alt="GoldenLand Construction Logo">
+        </div>
+        <div class="logo-text">
+          <span class="logo-main" id="logoMain">GOLDENLAND</span>
+          <span class="logo-sub" id="logoSub">Construction & Real Estate</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#testimonials">Clients</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-gps" id="navGps">
+          <i class="fas fa-map-pin"></i> <span>GE-134-3488</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-background">
+        <img id="heroBackgroundImage" src="/assets/image/webaliser-_TPTXZd9mOo-unsplash.jpg" alt="Construction workers on a high-rise building site">
+        <div class="background-overlay"></div>
+      </div>
+
+      <div class="hero-backdrop"></div>
+      <div class="hero-split">
+        <div class="hero-left">
+          <span class="hero-tagline" id="heroTagline">ASHONGMAN ESTATES · ACCRA</span>
+          <h1 class="hero-title">
+            <span id="heroTitlePrefix">We do not just build structures,</span><br>
+            <span class="hero-highlight" id="heroTitleHighlight">we build legacies</span>
+          </h1>
+          <p class="hero-desc" id="heroDescription">
+            Premium construction and real estate development with 12+ years of excellence across Ghana.
+          </p>
+
+          <div class="hero-stats" id="heroStats"></div>
+
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn-primary">View Our Work <i class="fas fa-arrow-right"></i></a>
+            <button id="playVideo" class="btn-play" type="button">
+              <i class="fas fa-play"></i> <span id="videoButtonLabel">Watch Showreel</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="gps-display" data-copy-gps>
+              <i class="fas fa-map-marked-alt"></i>
+              <div>
+                <strong>GPS ADDRESS</strong>
+                <span id="heroGps">GE-134-3488</span>
+              </div>
+            </div>
+            <a class="email-display" data-track-click="email" data-dynamic-link="email">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>EMAIL US</strong>
+                <span id="heroEmail">goldenlandconstructionltd@gmail.com</span>
+              </div>
+            </a>
+            <a class="phone-display" data-track-click="phone" data-dynamic-link="phone">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>CALL NOW</strong>
+                <span id="heroPhone">+233 (0) 24 347 5142</span>
+              </div>
+            </a>
+            <a href="#contact" class="hero-map-btn" data-track-click="map">
+              <i class="fas fa-location-dot"></i> Find us on Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">WHAT WE OFFER</span>
+          <h2 class="section-title">Comprehensive construction solutions</h2>
+          <p class="section-desc">From foundation to finish, we handle every aspect of your project</p>
+        </div>
+        <div class="services-masonry" id="servicesContainer"></div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">OUR PORTFOLIO</span>
+          <h2 class="section-title">Featured projects across Ghana</h2>
+          <p class="section-desc">Real projects. Real results. Real excellence.</p>
+        </div>
+
+        <div class="project-filters" id="projectFilters">
+          <button class="filter-btn active" data-filter="all" type="button">All Projects</button>
+          <button class="filter-btn" data-filter="residential" type="button">Residential</button>
+          <button class="filter-btn" data-filter="commercial" type="button">Commercial</button>
+          <button class="filter-btn" data-filter="infrastructure" type="button">Infrastructure</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+
+        <div class="projects-more">
+          <button id="loadMoreProjects" class="btn-outline" type="button">Load More Projects <i class="fas fa-chevron-down"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">CLIENT FEEDBACK</span>
+          <h2 class="section-title">What our clients say</h2>
+        </div>
+        <div class="testimonials-slider" id="testimonialsSlider"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-map-container">
+        <iframe
+          id="contactMap"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4035!2d-0.1872!3d5.6245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzcnMjguMiJOIDDCsDExJzE0LjAiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="contact-overlay">
+          <div class="contact-card-modern">
+            <h3>Get a free consultation</h3>
+            <form id="contactForm">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Email address" required>
+              <input type="tel" name="phone" placeholder="Phone number">
+              <select name="service" required>
+                <option value="">Select service</option>
+                <option>New Construction</option>
+                <option>Renovation</option>
+                <option>Real Estate</option>
+                <option>MEP Services</option>
+              </select>
+              <textarea name="message" placeholder="Tell us about your project" rows="4" required></textarea>
+              <button type="submit" class="btn-primary btn-block">Send Message</button>
+            </form>
+            <div class="contact-direct">
+              <p><i class="fas fa-map-pin"></i> <strong id="contactGps">GE-134-3488</strong> <span id="contactLocation">Ashongman Estates, Accra</span></p>
+              <p><i class="fas fa-envelope"></i> <span id="contactEmail">goldenlandconstructionltd@gmail.com</span></p>
+              <p><i class="fas fa-phone"></i> <span id="contactPhone">+233 (0) 243 475 142</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="/assets/image/ChatGPT Image Mar 2, 2026, 11_19_12 PM.png" alt="GoldenLand logo">
+            <span id="footerBrand">GOLDENLAND</span>
+          </div>
+          <p id="footerSubtitle">Construction & Real Estate Limited</p>
+          <p class="footer-gps" data-copy-gps><i class="fas fa-satellite-dish"></i> GPS: <span id="footerGps">GE-134-3488</span> · <span id="footerLocation">Accra, Ghana</span></p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul id="footerServiceLinks"></ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="#" data-track-click="facebook" data-dynamic-link="facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" data-track-click="linkedin" data-dynamic-link="linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" data-track-click="instagram" data-dynamic-link="instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" data-track-click="whatsapp" data-dynamic-link="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-admin-link"><a href="admin.html">Admin Portal</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p id="footerCopyright">© 2026 GoldenLand Construction and Real Estate Limited. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toastRoot" class="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
